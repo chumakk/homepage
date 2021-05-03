@@ -1,0 +1,26 @@
+main {
+    --bg-2:#abf99b;
+    background: var(--bg-2);
+    background: linear-gradient(
+      167deg,
+      var(--bg-2) 39%,
+      #fff 39%
+    );
+}
+  
+a {
+  color: #647efd;
+}
+.avatar {
+  border-radius: 50%;
+}
+.custom-tags {
+  line-height: calc(1.4285em + 10px);
+}
+.custom-tags .custom-tag {
+  padding: 4px 8px;
+
+  white-space: nowrap;
+
+  background: var(--bg-2);
+}
