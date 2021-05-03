@@ -24,3 +24,18 @@ a {
 
   background: var(--bg-2);
 }
+
+.prew{
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 10000;
+  opacity: 1;
+  background-color: #fff;
+  transition: opacity .5s;
+}
+.prew svg{
+  width:100%;
+  height: 100%;
+}
