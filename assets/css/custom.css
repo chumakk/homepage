@@ -1,0 +1,38 @@
+main {
+  --bg-2: #abf99b;
+  background: var(--bg-2);
+  background: linear-gradient(167deg, var(--bg-2) 39%, #fff 39%);
+}
+
+a {
+  color: #647efd;
+}
+.avatar {
+  border-radius: 50%;
+}
+.custom-tags {
+  line-height: calc(1.4285em + 10px);
+}
+.custom-tags .custom-tag {
+  padding: 4px 8px;
+
+  white-space: nowrap;
+
+  background: var(--bg-2);
+}
+
+.prew {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  opacity: 1;
+  background-color: #fff;
+  transition: opacity 0.5s;
+}
+
+.prew svg {
+  width: 100%;
+  height: 100%;
+}
