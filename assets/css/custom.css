@@ -1,5 +1,6 @@
 main {
   --bg-2: #abf99b;
+
   background: var(--bg-2);
   background: linear-gradient(167deg, var(--bg-2) 39%, #fff 39%);
 }
