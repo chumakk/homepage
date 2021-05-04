@@ -1,13 +1,9 @@
 main {
-    --bg-2:#abf99b;
-    background: var(--bg-2);
-    background: linear-gradient(
-      167deg,
-      var(--bg-2) 39%,
-      #fff 39%
-    );
+  --bg-2: #abf99b;
+  background: var(--bg-2);
+  background: linear-gradient(167deg, var(--bg-2) 39%, #fff 39%);
 }
-  
+
 a {
   color: #647efd;
 }
@@ -25,17 +21,18 @@ a {
   background: var(--bg-2);
 }
 
-.prew{
+.prew {
   display: none;
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   z-index: 10000;
   opacity: 1;
   background-color: #fff;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
-.prew svg{
-  width:100%;
+
+.prew svg {
+  width: 100%;
   height: 100%;
 }
